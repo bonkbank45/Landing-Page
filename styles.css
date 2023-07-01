@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    height: 100vh;
+    font-family: Roboto, sans-serif;
+}
+
+nav {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 4rem;
+}
+
+.header-logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.header-link a {
+    font-size: 18px;
+    margin-right: 10px;
+    color: #E5E7EB;
+    text-decoration: none;
+}
