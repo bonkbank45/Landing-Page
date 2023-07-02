@@ -40,35 +40,38 @@ section {
     flex: 1;
 }
 
-button {
-    background-color: #3882F6;
-    border-radius: 12px;
-    font-weight: bold;
-    font-size: 16px;
-    border: none;
-    color: #F9FAF8;
-    width: 100px;
-    padding: 10px;
+.nav-logo, .nav-link {
+    width: 500px;
 }
 
 .nav-logo {
     font-size: 24px;
     font-weight: bold;
     color: #F9FAF8;
-    width: 500px;
 }
 
 .nav-link {
     display: flex;
     justify-content: space-between;
-    width: 500px;
 }
 
 .nav-link a {
     font-size: 18px;
-    margin-right: 10px;
     color: #E5E7EB;
     text-decoration: none;
+}
+
+.signup-button {
+    background-color: #3882F6;
+    border-radius: 12px;
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+    color: #F9FAF8;
+    text-decoration: none;
+    text-align: center;
+    width: 100px;
+    padding: 10px;
 }
 
 .header-main {
